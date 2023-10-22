@@ -8,21 +8,21 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
+global.botname = process.env.BotName || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤" 
+global.author = process.env.Author || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮" 
+global.packname = process.env.PackName || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
+global.footer = process.env.Footer || "© 𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤" 
 global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
 global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.ownernumber = process.env.Owner_Number || "918287602427" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
-global.instagramId = process.env.Insta || "8.08_only_mine" 
+global.instagramId = process.env.Insta || "The_hardik_singh" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://ys7835925048:GR5Y7X9zxeJEmbS9@cluster0.rnwfo9v.mongodb.net/"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -83,7 +83,7 @@ global.Tips = [
 global.image_1 = readFileSync('./lib/Assets/image_1.jpg') // Thumbnail for allmenu command
 global.image_2 = readFileSync('./lib/Assets/image_2.jpg') // null image
 global.image_3 = readFileSync("./lib/Assets/image_3.jpg") // Thumbnail for Dashboard
-global.menu_pic = "https://i.ibb.co/PhDcZTM/Thumbnail.png";
+global.menu_pic = "https://telegra.ph/file/88f14c51959b1ffa503d0.jpg";
 
 global.message = {
     success: 'Done ✅',
@@ -96,29 +96,29 @@ global.message = {
     link: 'I need a link to process this command.',
     error: '```404 Error```',
     ban: `You're banned from using this bot!`,
-    nsfw: 'This group is not *NSFW* enabled.',
+    nsfw: 'Beta horny hore ho *NSFW* enable krlo.',
     banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
+  botname: process.env.BotName || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤", 
+  author: process.env.Author || "@𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮",
+  packname: process.env.PackName || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮 v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
+  footer: process.env.Footer || "© 𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤 Bot",
   prefa: process.env.Prefix || ['-'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  ownername: process.env.Owner_Name || "𝚮𝚫𝚪𝐃𝚰𝐊 𝐒𝚰𝚴𝐆𝚮🖤",
+  ownernumber: process.env.Owner_Number || "918287602427",
   adress: process.env.Continent || "Asia, India, Assam",
   timezone: process.env.TimeZone || "Asia/Kolkata", 
-  instagramId: process.env.Insta || "8.08_only_mine",
+  instagramId: process.env.Insta || "the_hardik_singh",
   email: process.env.Email_Id || "example@example.com",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  mongoUrl: process.env.MongoDB || "mongodb+srv://ys7835925048:GR5Y7X9zxeJEmbS9@cluster0.rnwfo9v.mongodb.net/",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
-  promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
+  promote: process.env.Promote_Msg || '*@$user* Iss lode ko group ka admin bna diya gya hai.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
   sessionId: process.env.SESSION_ID || "_AN_YA_HoledEarplugs", 
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
@@ -128,7 +128,7 @@ module.exports = {
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
-  menu_pic: "https://i.ibb.co/PhDcZTM/Thumbnail.png",
+  menu_pic: "https://telegra.ph/file/88f14c51959b1ffa503d0.jpg",
   message: {
     success: 'Done ✅',
     admin: 'You must be an admin to use this command.',
